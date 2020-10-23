@@ -11,4 +11,9 @@ class RaceResult
     {
         return $this->roundResults;
     }
+
+    public function setRoundResults($result)
+    {
+        array_push($this->roundResults, $result);
+    }
 }
